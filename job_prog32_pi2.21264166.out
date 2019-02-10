@@ -1,0 +1,10 @@
+IBRUN: Command is. / prog32_pi_test_mpi IBRUN: Command is / home / tyang / cs140 / pa1mpi_release / prog32_pi_test_mpi IBRUN: no hostfile mod needed IBRUN: Nodefile is / tmp / 9 QYi6TC4IE IBRUN: MPI binding policy:scatter /
+  core for
+  1
+  threads per rank (12 cores per socket)
+IBRUN: Adding MV2_USE_OLD_BCAST = 1 to the environment IBRUN: Adding MV2_CPU_BINDING_LEVEL = core to the environment IBRUN: Adding MV2_ENABLE_AFFINITY = 1 to the environment IBRUN: Adding MV2_DEFAULT_TIME_OUT = 23 to the environment IBRUN: Adding MV2_CPU_BINDING_POLICY = scatter to the environment IBRUN: Adding MV2_USE_HUGEPAGES = 0 to the environment IBRUN: Adding MV2_HOMOGENEOUS_CLUSTER = 0 to the environment IBRUN: Adding MV2_USE_UD_HYBRID = 0 to the environment IBRUN: Added 8 new environment variables to the execution environment IBRUN:Command string is[mpirun_rsh - np 2 - hostfile / tmp / 9 QYi6TC4IE -
+                      export -
+                      all / home / tyang / cs140 / pa1mpi_release /
+                      prog32_pi_test_mpi]
+Test 1: Wall clock time = 0.000003 at Proc 0 of 2 processes Test 1: pi estimate = 0.000000 Test 1: Error = 3.141593 Test 2: Wall clock time = 0.000001 at Proc 0 of 2 processes Test 2: pi estimate = 0.000000 Test 2: Error = 3.141593 Test 3: Wall clock time = 0.000002 at Proc 0 of 2 processes Test 3: pi estimate = 0.000000 Test 3: Error = 3.141593 Summary: Failed 3 out of 3 tests IBRUN:Job ended with value
+    0

@@ -1,0 +1,10 @@
+IBRUN: Command is. / itmv_mult_test_mpi IBRUN: Command is / home / tyang / cs140 / pa1mpi_release / itmv_mult_test_mpi IBRUN: no hostfile mod needed IBRUN: Nodefile is / tmp / e0yRC41yDw IBRUN: MPI binding policy:scatter /
+  core for
+  1
+  threads per rank (12 cores per socket)
+IBRUN: Adding MV2_USE_OLD_BCAST = 1 to the environment IBRUN: Adding MV2_CPU_BINDING_LEVEL = core to the environment IBRUN: Adding MV2_ENABLE_AFFINITY = 1 to the environment IBRUN: Adding MV2_DEFAULT_TIME_OUT = 23 to the environment IBRUN: Adding MV2_CPU_BINDING_POLICY = scatter to the environment IBRUN: Adding MV2_USE_HUGEPAGES = 0 to the environment IBRUN: Adding MV2_HOMOGENEOUS_CLUSTER = 0 to the environment IBRUN: Adding MV2_USE_UD_HYBRID = 0 to the environment IBRUN: Added 8 new environment variables to the execution environment IBRUN:Command string is[mpirun_rsh - np 2 - hostfile / tmp / e0yRC41yDw -
+                      export -
+                      all / home / tyang / cs140 / pa1mpi_release /
+                      itmv_mult_test_mpi]
+Test 1: Wall clock time = 0.000001 at Proc 0 of 2 processes Test 1 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 2: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 2 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 3: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 3 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 4: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 4 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 5: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 5 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 6: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 6 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 7: Wall clock time = 0.000000 at Proc 0 of 2 processes Test 7 Proc 0 error: One mismatch in iterative mat - vect multiplication Test 8: Wall clock time = 0.000001 at Proc 0 of 2 processes Test 8 Proc 0 error: One mismatch in iterative mat - vect multiplication Summary: Failed 8 out of 8 tests IBRUN:Job ended with value
+    0
